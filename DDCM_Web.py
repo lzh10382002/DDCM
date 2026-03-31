@@ -47,7 +47,7 @@ else:
         with st.spinner('🧠 神经网络正在进行高频自回归推演，请稍候...'):
             try:
                 # 1. 唤醒引擎
-                engine = VirtualSoilEngine(model_dir=MODEL_DIR, device='cpu')  # 网页版默认用CPU推演就够快了
+                engine = VirtualSoilEngine(model_dir=MODEL_DIR)
 
                 # 2. 生成协议 (百分比转换为绝对小数)
                 amp_absolute = amp_percent / 100.0
