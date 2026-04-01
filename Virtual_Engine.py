@@ -6,7 +6,7 @@ import pandas as pd
 # ======================================================================
 # 🌟 1. 接入 11_1_1.py 最新版大脑
 # ======================================================================
-from GCNN_ANN_Torch_outputasinput_smalltest_Cdata9_4_3_11_1_1 import ANNTorch, HYPERPARAMS
+from GCNN_ANN_Torch_outputasinput_smalltest_Cdata9_4_3_11_1 import ANNTorch, HYPERPARAMS
 
 
 class VirtualSoilEngine:
